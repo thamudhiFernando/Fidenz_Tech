@@ -1,0 +1,112 @@
+/*Style for the Body area*/
+body{
+    background-color: #1f2128;
+    background-image: url("../../images/header.png");
+    background-size: 100% auto;;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Style for the Header Area*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding-top: 6%;
+}
+.app-icon {
+    width: 40px;
+    height: auto;
+    margin-right:20px;
+}
+
+.app-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/*Style for the Content*/
+.container-fluid{
+    padding-top: 3%;
+    background-color: transparent;
+}
+
+.search-input {
+    padding: 12px;
+    border: 1px solid #1f2127;;
+    border-radius: 5px;
+    background-color: #1f2127;
+    color: lightgrey;
+    width: 400px;
+    float: left;
+}
+
+.search-button {
+    padding: 11px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6b5dd3;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    margin-left: -8px;
+}
+
+form{
+    padding-bottom: 3%;
+}
+
+.card{
+    border: none;
+    color:white ;
+    text-align: center;
+    background-color: #373b47 ;
+}
+
+.card-body{
+    color: white;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+
+.card-body p, .card-img-overlay p{
+    font-size:11px;
+    margin-bottom: 3px;
+}
+
+h3{
+    font-size: xxx-large;
+}
+
+h5,h3{
+    padding-top: 15px;
+}
+
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 0.25rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.close-button img {
+    width: 1em; /* Adjust the size of the button image */
+    height: 1em; /* Adjust the size of the button image */
+}
+
+/*Style for the footer area*/
+footer{
+    text-align: center;
+    background-color: #373b47;
+    color: #adb5bd;
+    /*padding: 10px;*/
+    padding-top: 12px;
+    padding-bottom: 1px;
+}
