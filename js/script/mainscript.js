@@ -67,7 +67,7 @@ function loadAllWeatherReports(cities){
         id: cities,
         units: 'metric',
         // q: 'London,uk',
-        appid: '1f7c1264db89c3babe0720b2bc23fa92'
+        appid: ''
     };
 
     var ajaxGetConfig = {

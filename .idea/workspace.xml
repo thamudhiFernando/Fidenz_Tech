@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d9c65a0-679e-4e33-a6c1-08ff6086595e" name="Changes" comment="implement dashboard without api call">
-      <change afterPath="$PROJECT_DIR$/css/styles/view_weather_styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/script/mainscript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/script/time_calculate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/script/view_weather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cloud1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cloud2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cloud3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cloud4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cloud5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/view_weather.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/view_weather.html" afterDir="false" />
-    </list>
+    <list default="true" id="6d9c65a0-679e-4e33-a6c1-08ff6086595e" name="Changes" comment="implement dashboard api call and view weather report view" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +68,7 @@
       <updated>1702464414121</updated>
       <workItem from="1702464416013" duration="348000" />
       <workItem from="1702464778492" duration="69025000" />
-      <workItem from="1702713974118" duration="3935000" />
+      <workItem from="1702713974118" duration="4439000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1702465047692</created>
@@ -105,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702561027073</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implement dashboard api call and view weather report view">
+      <created>1702718073277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702718073277</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="implement dashboard without api call" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement dashboard without api call" />
+    <MESSAGE value="implement dashboard api call and view weather report view" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement dashboard api call and view weather report view" />
   </component>
 </project>
