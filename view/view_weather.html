@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <title>Weather App</title>
+    <link rel="icon" href="../images/cloud_emoji.png" type="image/x-icon">
 
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Main styles -->
+    <link href="../css/styles/styles.css" rel="stylesheet">
+    <link href="../css/styles/view_weather_styles.css" rel="stylesheet">
+    <link href="../css/normalize.css" rel="stylesheet">
+</head>
+
+<body>
+<!--Header for the weather app-->
+<header>
+    <img src="../images/cloud_emoji.png" alt="Weather App Icon" class="app-icon">
+    <h4 class="app-title">Weather App</h4>
+</header>
+
+<!--Body area for the weather app-->
+<div class="container-fluid mb-5">
+    <div class="row justify-content-center align-items-center ">
+        <div class="col-10 col-sm-9 col-md-8 col-lg-4 col-xl-4 col-xxl-6 mb-4">
+            <div class="card">
+                <button type="button" class="back-button small-btn-img">
+                    <img src="../images/back.png" alt="Close Button">
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Footer for the weather app-->
+<footer>
+    <p>2023 Fidenz Technologies</p>
+</footer>
 </body>
+
+
+<!--JQuery JS-->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="../js/script/time_calculate.js"></script>
+<script src="../js/script/view_weather.js"></script>
 </html>

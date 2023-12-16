@@ -22,7 +22,7 @@ header{
 }
 
 .app-title {
-    font-size: 1.5em;
+    font-size: 35px;
     margin: 0;
 }
 
@@ -63,12 +63,16 @@ form{
     text-align: center;
     background-color: #373b47 ;
 }
+.card:hover{
+    cursor: pointer;
+}
 
 .card-body{
     color: white;
     padding-bottom: 20px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
+    height: 100px;
 }
 
 
@@ -77,26 +81,36 @@ form{
     margin-bottom: 3px;
 }
 
-h3{
-    font-size: xxx-large;
+
+h5,h3.card-title{
+    padding-top: 10%;
+    margin-bottom: 0;
+}
+h3.card-title{
+    font-size: 2.5em;
+    padding-top: 5%;
 }
 
-h5,h3{
-    padding-top: 15px;
+.card-img-overlay .col-6 , .card-body p{
+    padding: 0;
 }
-
 
 .close-button {
     position: absolute;
     top: 5px;
     right: 10px;
+}
+
+.small-btn-img {
     padding: 0.25rem;
     background: none;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
 }
 
-.close-button img {
+.small-btn-img img {
     width: 1em; /* Adjust the size of the button image */
     height: 1em; /* Adjust the size of the button image */
 }

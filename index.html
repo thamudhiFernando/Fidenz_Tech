@@ -5,7 +5,6 @@
     <title>Weather App</title>
     <link rel="icon" href="images/cloud_emoji.png" type="image/x-icon">
 
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome CSS -->
@@ -15,9 +14,8 @@
     <link href="css/styles/styles.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
 </head>
+
 <body>
-
-
 <!--Header for the weather app-->
 <header>
     <img src="images/cloud_emoji.png" alt="Weather App Icon" class="app-icon">
@@ -29,160 +27,19 @@
     <form class="row justify-content-center">
         <div class="col-auto">
             <input type="text" class="form-control search-input" id="cityInput" placeholder="Enter a city">
-            <button type="submit" class="btn btn-primary mb-3 search-button">Add City</button>
+            <button type="submit" class="btn btn-primary mb-3 search-button" id="add-city-btn" >Add City</button>
         </div>
     </form>
-
-    <div class="row justify-content-center align-items-center mb-4">
-        <div class="col-4">
-            <div class="card">
-                <button type="button" class="close-button">
-                    <img src="images/close.png" alt="Close Button">
-                </button>
-                <img src="images/cloud1.png" class="card-img-top" alt="card image">
-                <div class="card-img-overlay row">
-                    <div class="col-6">
-                        <h5>Colombo,LK</h5>
-                        <p>9.19am, Feb 8</p><br>
-                        <img src="images/cloud_emoji.png" alt="Few Clouds"> Few Clouds
-                    </div>
-                    <div class="col-6">
-                        <h3 class="card-title">27°c</h3>
-                        <p>Temp Min: 25°c</p>
-                        <p>Temp Max: 28°c</p>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-4">
-                            <p>Pressure: 101Pa</p>
-                            <p> Humidity: 78%</p>
-                            <p>Visibility: 8.0km</p>
-                        </div>
-                        <div class="col-4">
-                            <img src="images/arrow.svg" alt="SVG Arrow" class="mb-2">
-                            <p>4.0m/s 120 Degree</p>
-                        </div>
-                        <div class="col-4 mt-2">
-                            <p>Sunrise: 6.05am</p>
-                            <p>Sunset: 6.05pm</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-4">
-            <div class="card">
-                <img src="images/cloud2.png" class="card-img-top" alt="card image">
-                <div class="card-img-overlay row">
-                    <div class="col-6">
-                        <h5>Colombo,LK</h5>
-                        <p>9.19am, Feb 8</p><br>
-                        <img src="images/cloud_emoji.png" alt="Few Clouds"> Few Clouds
-                    </div>
-                    <div class="col-6">
-                        <h3 class="card-title">27°c</h3>
-                        <p>Temp Min: 25°c</p>
-                        <p>Temp Max: 28°c</p>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-4">
-                            <p>Pressure: 101Pa</p>
-                            <p> Humidity: 78%</p>
-                            <p>Visibility: 8.0km</p>
-                        </div>
-                        <div class="col-4">
-                            <img src="images/arrow.svg" alt="SVG Arrow">
-                            <p>4.0m/s 120 Degree</p>
-                        </div>
-                        <div class="col-4">
-                            <p>Sunrise: 6.05am</p>
-                            <p>Sunset: 6.05pm</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="row justify-content-center align-items-center">
-        <div class="col-4">
-            <div class="card">
-                <img src="images/cloud3.png" class="card-img-top" alt="card image">
-                <div class="card-img-overlay row">
-                    <div class="col-6">
-                        <h5>Colombo,LK</h5>
-                        <p>9.19am, Feb 8</p><br>
-                        <img src="images/cloud_emoji.png" alt="Few Clouds"> Few Clouds
-                    </div>
-                    <div class="col-6">
-                        <h3 class="card-title">27°c</h3>
-                        <p>Temp Min: 25°c</p>
-                        <p>Temp Max: 28°c</p>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-4">
-                            <p>Pressure: 101Pa</p>
-                            <p> Humidity: 78%</p>
-                            <p>Visibility: 8.0km</p>
-                        </div>
-                        <div class="col-4">
-                            <img src="images/arrow.svg" alt="SVG Arrow">
-                            <p>4.0m/s 120 Degree</p>
-                        </div>
-                        <div class="col-4">
-                            <p>Sunrise: 6.05am</p>
-                            <p>Sunset: 6.05pm</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="card">
-                <img src="images/cloud4.png" class="card-img-top" alt="card image">
-                <div class="card-img-overlay row">
-                    <div class="col-6">
-                        <h5>Colombo,LK</h5>
-                        <p>9.19am, Feb 8</p><br>
-                        <img src="images/cloud_emoji.png" alt="Few Clouds"> Few Clouds
-                    </div>
-                    <div class="col-6">
-                        <h3 class="card-title">27°c</h3>
-                        <p>Temp Min: 25°c</p>
-                        <p>Temp Max: 28°c</p>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-4">
-                            <p>Pressure: 101Pa</p>
-                            <p> Humidity: 78%</p>
-                            <p>Visibility: 8.0km</p>
-                        </div>
-                        <div class="col-4">
-                            <img src="images/arrow.svg" alt="SVG Arrow">
-                            <p>4.0m/s 120 Degree</p>
-                        </div>
-                        <div class="col-4">
-                            <p>Sunrise: 6.05am</p>
-                            <p>Sunset: 6.05pm</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
+<!--Footer for the weather app-->
 <footer>
     <p>2023 Fidenz Technologies</p>
 </footer>
 </body>
+
+<!--JQuery JS-->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="js/script/time_calculate.js"></script>
+<script src="js/script/mainscript.js"></script>
 </html>
