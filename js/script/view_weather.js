@@ -14,7 +14,6 @@ function getCity() {
     // Deserialize the object from JSON
     const retrievedObject = JSON.parse(decodeURIComponent(valuePassed));
 
-    console.log(retrievedObject);
 
     var currentDate = new Date();
     var cardHTML = '<img src="../images/' + retrievedObject.weather[0].description + '.png" class="card-img-top" alt="card image">' +

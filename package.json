@@ -1,6 +1,11 @@
 {
   "name": "Fidenz_Tech",
   "version": "1.0.0",
+  "license": "MIT",
   "dependencies": {
+
+  },
+  "scripts": {
+    "start": ""
   }
 }

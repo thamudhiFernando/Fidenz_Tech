@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d9c65a0-679e-4e33-a6c1-08ff6086595e" name="Changes" comment="implement dashboard api call and view weather report view" />
+    <list default="true" id="6d9c65a0-679e-4e33-a6c1-08ff6086595e" name="Changes" comment="update API key">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script/mainscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script/mainscript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script/view_weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script/view_weather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +66,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +82,8 @@
       <updated>1702464414121</updated>
       <workItem from="1702464416013" duration="348000" />
       <workItem from="1702464778492" duration="69025000" />
-      <workItem from="1702713974118" duration="4439000" />
+      <workItem from="1702713974118" duration="6998000" />
+      <workItem from="1702754180335" duration="11714000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1702465047692</created>
@@ -98,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702718073277</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update API key">
+      <created>1702718523376</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702718523376</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +141,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="implement dashboard without api call" />
     <MESSAGE value="implement dashboard api call and view weather report view" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement dashboard api call and view weather report view" />
+    <MESSAGE value="update API key" />
+    <option name="LAST_COMMIT_MESSAGE" value="update API key" />
   </component>
 </project>

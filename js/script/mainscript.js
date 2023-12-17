@@ -15,15 +15,12 @@ function getCityCodes() {
             var cities = '';
 
             data.List.forEach(function (city, index) {
-                console.log();
                 cities += city.CityCode;
                 // Add a comma if it's not the last element
                 if (index < data.List.length - 1) {
                     cities += ',';
                 }
             });
-
-            console.log('cities: ' + cities);
 
             // Call fetchingData inside the then block to ensure it's executed after city codes are fetched
             fetchingData(cities);
@@ -67,7 +64,7 @@ function loadAllWeatherReports(cities){
         id: cities,
         units: 'metric',
         // q: 'London,uk',
-        appid: ''
+        appid: '1f7c1264db89c3babe0720b2bc23fa92'
     };
 
     var ajaxGetConfig = {
@@ -78,7 +75,6 @@ function loadAllWeatherReports(cities){
     }
 
     $.ajax(ajaxGetConfig).done(function (weatherList,textStatus,iqxhr) {
-        console.log(weatherList);
         // -----------------------Generate weather report from the list---------------------
         generateHtml(weatherList,cities);
 
@@ -89,7 +85,6 @@ function loadAllWeatherReports(cities){
 
 function generateHtml(weatherList,cities){
     if (cities != null) {
-        console.log(`Serving new data for :`, weatherList);
         // Cache the new data
         cacheCityData[cities] = {
             list: weatherList,
@@ -102,11 +97,9 @@ function generateHtml(weatherList,cities){
     var currentDate = new Date();
     var cardHtml = '<div class="row justify-content-center align-items-center">';
     weatherList.list.forEach(function (weather,index) {
-        console.log('index : ' + index);
         if (index > 0 && index %2 == 0){
             cardHtml += '</div><div class="row justify-content-center align-items-center">';
         }
-        console.log('weather: ' +weather.weather[0].description);
         cardHtml += '<div class="col-10 col-sm-8 col-md-7 col-lg-5 col-xl-4 col-xxl-4 mb-4">' +
             '<div class="card" id="'+ index+'">' +
             '<button type="button" class="close-button small-btn-img" aria-label="Close" >' +
@@ -157,11 +150,9 @@ function generateHtml(weatherList,cities){
     // -----------------------View weather report---------------------
     $('div.card').on('click', function() {
         let indexOfClickedCard = $(this).attr('id');
-        console.log($(this).attr('id'));
-        console.log('------------');
+
 
         // Navigate to the second page
-        console.log(weatherList.list[indexOfClickedCard]);
         // debugger;
         window.location.href = '../../../Fidenz_Tech/view/view_weather.html?data=' + encodeURIComponent(JSON.stringify(weatherList.list[indexOfClickedCard]));
         // window.location.href = '../../../Fidenz_Tech/view/view_weather.html?value=' + encodeURIComponent('hi');
